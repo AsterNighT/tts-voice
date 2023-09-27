@@ -4,6 +4,8 @@ A small tool that redirect tts output to audio input. Based on `edge-tts`.
 
 You will need some audio cable device to do the redirection. I test it on [Virtual Audio Cable](https://vb-audio.com/Cable/). But I suppose it would work on other choices.
 
+I tested it on python `3.11` and it works. It does not seem to work with `3.8`. Anywhere between them is untested.
+
 # Usage
 If you are using a different audio cable device, you may need to change the device name in `utils.py`.
 
